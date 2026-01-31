@@ -7,7 +7,7 @@ import services.EmployeeService;
 import utils.InputHelper;
 
 public class EmployeeServiceImpl implements EmployeeService {
-    private EmployeeRepository employeeRepository = new EmployeeRepositoryImpl();
+    private EmployeeRepository employeeRepository ;`
 
     public EmployeeServiceImpl() {
         this.employeeRepository = new EmployeeRepositoryImpl();

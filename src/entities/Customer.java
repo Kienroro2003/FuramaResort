@@ -1,7 +1,7 @@
 package entities;
 
 public class Customer extends Person {
-    private static int LAST_ID = 0;
+    public static int LAST_ID = 0;
     private CustomerType customerType = CustomerType.MEMBER;
     private String address;
 

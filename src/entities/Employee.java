@@ -2,7 +2,7 @@ package entities;
 
 
 public class Employee extends Person {
-    private static int LAST_ID = 0;
+    public static int LAST_ID = 0;
     private Level level;
     private Position position;
     private double salary;
